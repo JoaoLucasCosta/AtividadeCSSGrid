@@ -120,3 +120,11 @@ header {
     border-radius: 50%; /* Ícones arredondados */
 }
 
+.item{
+    margin: auto;
+    border-style:double;
+}
+
+.imagens{
+   
+}
