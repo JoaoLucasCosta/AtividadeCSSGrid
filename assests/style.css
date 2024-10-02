@@ -120,6 +120,33 @@ header {
     border-radius: 50%; /* Ícones arredondados */
 }
 
-.item{
-    border-style:double;
+.item img{
+    border-radius: 15px;
+    object-fit: cover;
 }
+
+.sidenav  .butu{
+        transform: scale(1.0); /* Zoom */
+        background-color: white; /* Verde */
+        font-weight: 10px;
+        font-style: oblique;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 13px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border: none;
+        transition: background-color 0.3s ease;
+        border-radius: 20px;
+    }
+    
+    .sidenav ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sidenav  .butu:hover{
+        background-color: transparent;
+        color:#393434;
+    }
